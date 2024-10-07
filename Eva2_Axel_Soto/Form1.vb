@@ -224,8 +224,8 @@ Public Class Form1
             modoEdicion = False
             btnActualizar.Text = "Actualizar"
         Else
+            DesbloquearCampos(True)
             modoEdicion = True
-            btnActualizar.Text = "Guardar"
         End If
     End Sub
 
